@@ -79,6 +79,7 @@ At our scale, we track these through:
 Would you like our playbook for implementing this measurement system?
 
 User: I want to score our project, please use these indicators:
+```json
 {
   "code_quality"     : value1, # 100.0 - means code quality is perfect, 0.0 - bad code
   "test_coverage"    : value2, # 100.0 - all necessary tests are implemented, 0.0 - no tests at all
@@ -88,6 +89,7 @@ User: I want to score our project, please use these indicators:
   "need_refactoring" : value6,  # 100.0 means that we need refactoring right now and it's important todo, 0.0 - code is fine
   "tested_in_reallife" : value7 # 100.0 all tested in real-life, 0.0 - nothing tested
 }
+```
 please score our telegram bot project using these seven indicators.
 
 Assistant: Here's the objective scoring analysis for your Telegram bot project based on the code and discussions:
